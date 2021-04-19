@@ -50,9 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\Food.txt" />
-    <Content Include="bin\Debug\Drinks.txt" />
-    <Content Include="bin\Debug\FoodAndDrinks.txt" />
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
